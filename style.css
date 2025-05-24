@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.cabecalho {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 0 auto 30px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho h2, .cabecalho h3, .cabecalho p {
+  margin: 10px 0;
+  color: #333;
+}
+
+.botao {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: #45a049;
+}
